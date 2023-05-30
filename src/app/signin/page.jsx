@@ -37,7 +37,7 @@ export default function Home() {
                     Sign In
                   </button>
                   
-                  <p className="text-red-800 text-[12px] text-center">Can't remember Password?<a className="text-gray-950 hover:text-red-800" href="/resetpassword">Click Here</a></p>
+                  <p className="text-red-800 text-[12px] text-center">Can&#39;t remember Password?<a className="text-gray-950 hover:text-red-800" href="/resetpassword">Click Here</a></p>
               
 
                 </fieldset>
