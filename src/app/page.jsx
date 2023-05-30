@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logo from './images/footerimage.jpg'
-import mainpic from './images/mainpic.png'
+import mainpic from './images/pic1.png'
 import {SlSocialLinkedin, SlSocialInstagram, SlSocialFacebook, SlSocialTwitter} from 'react-icons/sl'
 import {ImPinterest2} from 'react-icons/im'
 import {BsTelephone} from 'react-icons/bs'
@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <main className='py-[70px] px-[20px] md:py-[70px] md:px-[100px]'>
       <div className='bg-slate-300 rounded-3xl flex'>
-        <div className='bg-blue-400 space-y-14 py-9 px-8 rounded-3xl text-white md:w-[30vw]'>
+        <div className='bg-blue-400 md:space-y-32 py-9 px-8 rounded-3xl text-white md:w-[30vw]'>
           <div className='flex space-x-2 px-7'><Image src={logo} alt='logo' width={30} height={30} className='rounded-full' /> <span>Moment Icon</span></div>
-          <Image src={mainpic} alt='mainpic' width={250} height={200} />
+          <Image src={mainpic} alt='mainpic' width={500} height={500} />
           <p className='text-[10px] text-center pt-10'>Copyright &copy; {year}, Moment Icon, All right reserved</p>
         </div>
         <div className='px-10 md:px-48 py-14 space-y-16'>

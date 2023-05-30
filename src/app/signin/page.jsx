@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Links from "../component/Links"
 import logo from '../images/footerimage.jpg'
-import mainpic from '../images/freaky.png'
+import mainpic from '../images/pic2.png'
 import {BsFillPersonFill} from 'react-icons/bs'
 import {RiLockPasswordFill} from 'react-icons/ri'
 
@@ -17,10 +17,10 @@ export default function Home() {
       <div className='bg-slate-300 rounded-3xl flex'>
         <div className='bg-blue-400 space-y-14 py-9 px-8 rounded-3xl text-white md:w-[30vw]'>
           <div className='flex space-x-2 px-7'><Image src={logo} alt='logo' width={30} height={30} className='rounded-full' /> <span>Moment Icon</span></div>
-          <Image src={mainpic} alt='mainpic' width={200} height={200} />
+          <Image src={mainpic} alt='mainpic' width={400} height={400} />
           <p className='text-[10px] text-center pt-10'>Copyright &copy; {year}, Moment Icon, All right reserved</p>
         </div>
-        <div className='px-10 md:px-48 py-40'>
+        <div className='px-10 md:px-48 py-20'>
           <div className='shadow-2xl grid rounded-2xl md:w-[30vw] h-[30vh]'>
             <div className='py-4 px-6 rounded-t-2xl text-[20px]'>
               <Links />
